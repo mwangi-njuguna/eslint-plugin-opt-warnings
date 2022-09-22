@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-opt-warnings",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Downgrade errors to warning optionally when extending a config.",
   "keywords": [
     "eslint",
@@ -8,8 +8,8 @@
     "eslint-plugin"
   ],
   "author": "Antony Njuguna",
-  "main": "./src/index.js",
-  "exports": "./src/index.js",
+  "main": "./lib/index.js",
+  "exports": "./lib/index.js",
   "scripts": {
     "lint": "eslint .",
     "test": "mocha tests --recursive"
